@@ -8,11 +8,11 @@ public class ResourceBundleTest {
 		rb=ResourceBundle.getBundle(resourceName);
 		
 	    rb = ResourceBundle.getBundle(resourceName, Locale.KOREA);
-	    System.out.println("ÇÑ±¹ : " + rb.getString("hi"));
-	    System.out.println("ÇÑ±¹ : " + rb.getString("bye"));
+	    System.out.println("í•œêµ­" + rb.getString("hi"));
+	    System.out.println("í•œêµ­" + rb.getString("bye"));
 	    
 	    rb = ResourceBundle.getBundle(resourceName, Locale.US); 
-	    System.out.println("¹Ì±¹ : " + rb.getString("hi"));
-	    System.out.println("¹Ì±¹ : " + rb.getString("bye"));
+	    System.out.println("ë¯¸êµ­" + rb.getString("hi"));
+	    System.out.println("ë¯¸êµ­" + rb.getString("bye"));
 	}
 }
